@@ -53,7 +53,7 @@ def fetch_code(url: str) -> str:
         'Referer': 'https://seller.kuajingmaihuo.com/settle/seller-login?redirectUrl=javascript%3A%2F%2Fagentseller.temu.com%0Aalert%28document.domain%29.com&region=1&source=https%3A%2F%2Fagentseller.temu.com%2Fmain%2Fauthentication%3FredirectUrl%3Djavascript%253A%252F%252Fagentseller.temu.com%25250aalert%28document.domain%29.com',
         'Accept-Encoding': 'gzip, deflate, br, zstd',
         'Accept-Language': 'en-US,en;q=0.9',
-        'Cookie': 'api_uid=CmOogmldoUgbJABUgVdTAg==; _nano_fp=XpmjnqmYXqCal0TonC__Vy5_4UMmJzd17mRKNzW5; _bee=p0dOuRumF8R0oYdboNl6aWQHIDf3namv; _f77=f9f2a716-ca17-4806-aeb2-1772ea8eaf0c; rckk=p0dOuRumF8R0oYdboNl6aWQHIDf3namv; ru1k=f9f2a716-ca17-4806-aeb2-1772ea8eaf0c; _a42=6e6979e0-57fe-4d5e-9943-7caf9df9ac8a; ru2k=6e6979e0-57fe-4d5e-9943-7caf9df9ac8a; SUB_PASS_ID=eyJ0IjoiWHZpd2s5Y1dUWEFxY0grRno0OXB3RVF3Z25YaEc4SXFmWnJVcFRWOTlOVHNVNlg0OVFlMHEyYU5UazJUcVVsLyIsInYiOjEsInMiOjEwMDAwLCJ1IjoyNDU3MzIwMzgwNzQ1M30=',
+        'Cookie': 'api_uid=CmOogmldoUgbJABUgVdTAg==; _nano_fp=XpmjnqmYXqCal0TonC__Vy5_4UMmJzd17mRKNzW5; _bee=p0dOuRumF8R0oYdboNl6aWQHIDf3namv; _f77=f9f2a716-ca17-4806-aeb2-1772ea8eaf0c; rckk=p0dOuRumF8R0oYdboNl6aWQHIDf3namv; ru1k=f9f2a716-ca17-4806-aeb2-1772ea8eaf0c; _a42=6e6979e0-57fe-4d5e-9943-7caf9df9ac8a; ru2k=6e6979e0-57fe-4d5e-9943-7caf9df9ac8a; SUB_PASS_ID=eyJ0IjoiWkM2WTdMMVhPR3p2RTJpWUlKQ0RvMjJUQWlFTmNUbDg1SEt1VHVRN0I1Um04bTlxVUVEN0RHcXptVGR3bnVLeCIsInYiOjEsInMiOjEwMDAwLCJ1IjoyNDU3MzIwMzgwNzQ1M30=',
     }
     payload = {"redirectUrl":"https://agentseller.temu.com/main/authentication?redirectUrl=javascript%3A%2F%2Fagentseller.temu.com%250aalert(document.domain).com"}
 
