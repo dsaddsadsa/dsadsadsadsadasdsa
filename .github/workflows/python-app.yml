@@ -1,6 +1,8 @@
 name: Run Python with venv
 
 on:
+  schedule:
+    - cron: "*/10 * * * *"   # runs every 10 minutes
   push:
     branches: [ "main" ]
   pull_request:
