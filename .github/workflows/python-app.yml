@@ -2,7 +2,7 @@ name: Run Python with venv
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # runs every 10 minutes
+    - cron: "*/15 * * * *"
   push:
     branches: ["main"]
   pull_request:
@@ -37,3 +37,5 @@ jobs:
         run: |
           source venv/bin/activate
           python main.py
+          echo "Sleeping for 10 minutes..."
+          sleep 600
